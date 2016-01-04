@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <title>type</title>
     <script type="text/javascript">
-        var n = 17;
-        document.write(n.toString(2) + "<br>");
+        var n = 123456.789;
+        document.write(n.toFixed(0) + "<br>");
+        document.write(n.toFixed(2) + "<br>");
+        document.write(n.toFixed(5) + "<br>");
+        document.write(n.toExponential(1) + "<br>");
+        document.write(n.toExponential(3) + "<br>");
+        document.write(n.toPrecision(4) + "<br>");
+        document.write(n.toExponential(7) + "<br>");
+        document.write(n.toExponential(10) + "<br>");
         /* document.write(s.charAt(0) + "<br>");
          document.write(s.charAt(s.length-1) + "<br>");
          document.write(s.substring(1,4) + "<br>");
