@@ -1,6 +1,4 @@
-/**
- * Created by admin on 05.01.2016.
- */
+
 var word = "bottles";
 var count = 99;
 console.log(count + " " + word + " of beer on the wall,");
